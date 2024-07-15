@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 70px;
+  background-color: white;
+  display: flex;
+}
+#logocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+#buttoncontainter {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-right: 30px;
+}
+button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+  background-color: #ec3750;
+  color: white;
+  cursor: pointer;
+}
+#editor {
+  flex: 1;
+}
